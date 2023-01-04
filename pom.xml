@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.0.1</version>
+    <relativePath/>
+  </parent>
+  <groupId>dev.gentile</groupId>
+  <artifactId>spring-base</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>spring-base</name>
+  <description>Spring Base para os projetos de aplicativos</description>
+  <properties>
+    <java.version>17</java.version>
+    <log4j2.version>2.17.1</log4j2.version>
+    <spring.boot.version>3.0.1</spring.boot.version>
+    <model.mapper.version>3.1.1</model.mapper.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <gentile.url.dsv>http://localhost:8080</gentile.url.dsv>
+    <gentile.url.hmg>http://hmg.gentile.dev</gentile.url.hmg>
+    <gentile.url.prd>http://api.gentile.dev</gentile.url.prd>
+  </properties>
+  <licenses>
+    <license>
+      <name>Matheus Gentile</name>
+      <url>http://www.gentile.dev/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Matheus Gentile</name>
+      <email>matheus@gentile.dev</email>
+      <organization>Analista de TI e Desenvolvedor Full Stack</organization>
+      <organizationUrl>http://www.gentile.dev/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/matheusgentile/spring-base.git</url>
+  </scm>
+</project>
